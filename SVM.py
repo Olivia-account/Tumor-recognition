@@ -46,10 +46,10 @@ recall = recall_score(y_test, y_pred)
 f1 = f1_score(y_test, y_pred)
 confusion_mat = confusion_matrix(y_test, y_pred)
 
-# 打印结果和指标
-print("Model: SVM")
-print("Accuracy:", accuracy)
-print("Precision:", precision)
-print("Recall:", recall)
-print("F1 Score:", f1)
-print("Confusion Matrix:\n", confusion_mat)
+# # 打印结果和指标
+# print("Model: SVM")
+# print("Accuracy:", accuracy)
+# print("Precision:", precision)
+# print("Recall:", recall)
+# print("F1 Score:", f1)
+# print("Confusion Matrix:\n", confusion_mat)
